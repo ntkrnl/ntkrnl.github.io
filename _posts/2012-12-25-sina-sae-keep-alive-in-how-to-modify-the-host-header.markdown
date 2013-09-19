@@ -10,4 +10,4 @@ categories:
 - 未分类
 ---
 
-去[webpagetest](http://www.webpagetest.org/)测试加载速度的时候，被告知keep-alive参数没有设置好，在sae的选项里面找了半天没找到在哪儿改…… htaccess不让用就算了，那个防火墙形同虚设就算了，连http header都不能有完全的修改控制权，这尼玛坑爹呢！
+去[webpagetest](http://www.webpagetest.org/)测试加载速度的时候，被告知(keep-alive)参数没有设置好，在sae的选项里面找了半天没找到在哪儿改…… (htaccess)不让用就算了，那个防火墙形同虚设就算了，连(http header)都不能有完全的修改控制权，这尼玛坑爹呢！
