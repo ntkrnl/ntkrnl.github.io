@@ -15,6 +15,6 @@ categories:
 改皮肤的方法有两种：
 
 
-> A.config.js里面加入一行config.skin = 'office2003';这里office2003是你要改的皮肤名字，当然ckeditor自带的皮肤只有三种kama、office2003、v2；
+- A.config.js里面加入一行config.skin = 'office2003';这里office2003是你要改的皮肤名字，当然ckeditor自带的皮肤只有三种kama、office2003、v2；
 
-B.修改ckeditor.js，找到skin:'kama'，把皮肤替换成自己想要的即可。
+- B.修改ckeditor.js，找到skin:'kama'，把皮肤替换成自己想要的即可。
