@@ -3,7 +3,7 @@ author: admin
 comments: true
 date: 2012-01-05 13:01:48+00:00
 layout: post
-slug: primary-and-middle-school-textbook-form-of-proposals-for-the-reform-of-wiki-teaching-material
+slug: primary-and-middle-school-wiki-textbook
 title: 中小学教材改革的设想——WIKI形式的教材
 wordpress_id: 862
 categories:
