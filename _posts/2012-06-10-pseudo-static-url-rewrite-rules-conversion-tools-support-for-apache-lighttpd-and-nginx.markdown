@@ -16,55 +16,54 @@ tags:
 - WordPress
 ---
 
+
 URL RewriteRule conversion tool | URL伪静态规则转换工具
 [http://www.onexin.net/rewrite.php](http://www.onexin.net/rewrite.php)
-<!-- more -->
+
 Apache
 
-
-> RewriteRule ^store-([0-9]+).html$ store.php?id=$1 [L,NC]
-
-
+    RewriteRule ^store-([0-9]+).html$ store.php?id=$1 [L,NC]
+    
 
 IIS rewrite (WordPress)
 
 
-> [ISAPI_Rewrite]
-CacheClockRate 3600
-RepeatLimit 32
+    [ISAPI_Rewrite]
+    CacheClockRate 3600
+    RepeatLimit 32
 
-RewriteRule ^index.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+    RewriteRule ^index.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
 
 
 Apache rewrite
 
-
-> RewriteEngine On
-RewriteBase /
-RewriteRule ^index.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+    
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
 
 
 Nginx rewrite
 
 
-> location / {
-index index.html index.php;
-if (-f $request_filename/index.html){
-rewrite (.*) $1/index.html break;
-}
-if (-f $request_filename/index.php){
-rewrite (.*) $1/index.php;
-}
-if (!-f $request_filename){
-rewrite (.*) /index.php;
-}
-}
+    location / {
+    index index.html index.php;
+    if (-f $request_filename/index.html){
+    rewrite (.*) $1/index.html break;
+    }
+    if (-f $request_filename/index.php){
+    rewrite (.*) $1/index.php;
+    }
+    if (!-f $request_filename){
+    rewrite (.*) /index.php;
+    }
+    }
 
 
 来源：http://www.onexin.net/rewrite-rules-for-pseudo-static-conversion-tools-support-apache-lighttpd-and-nginx/
