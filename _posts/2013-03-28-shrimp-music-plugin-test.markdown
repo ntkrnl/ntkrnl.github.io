@@ -10,4 +10,4 @@ categories:
 - 未分类
 ---
 
-[xiami id="1769819218"]夜的钢琴曲五 -- 石进[/xiami]
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1769966152&mode=js"></script>
