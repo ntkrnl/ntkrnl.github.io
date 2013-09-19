@@ -17,3 +17,4 @@ tags:
 虽然以前听过很多次《牢不可破的联盟》，结合阅兵画面看还是很震撼，1987年苏联解体的前夜，帝国最后的绝响……
 
 
+<embed width="480" height="400" type="application/x-shockwave-flash" src="http://player.youku.com/player.php/sid/XODY2MDQ5MzY=/v.swf" allowfullscreen="true" quality="high" allowscriptaccess="always" />
