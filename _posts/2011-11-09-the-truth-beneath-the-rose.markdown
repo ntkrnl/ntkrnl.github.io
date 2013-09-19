@@ -158,5 +158,5 @@ categories:
 [![](http://cctvsmg-wordpress.stor.sinaapp.com/uploads/2011/11/暴风截屏20111109235240.jpg)](http://cctvsmg-wordpress.stor.sinaapp.com/uploads/2011/11/暴风截屏20111109235240.jpg)
 
 bilibili在线观看：
-<object width="544" height="415" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="quality" value="high" /><param name="allowfullscreen" value="true" /><param name="src" value="http://static.loli.my/miniloader.swf" /><param name="flashvars" value="ykid=XMjU2ODQ2NTM2" /><param name="pluginspage" value="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" /><embed width="544" height="415" type="application/x-shockwave-flash" src="http://static.loli.my/miniloader.swf" quality="high" allowfullscreen="true" flashvars="ykid=XMjU2ODQ2NTM2" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" /></object>
+<embed height="452" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=71813&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
 
