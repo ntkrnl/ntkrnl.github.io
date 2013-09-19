@@ -11,5 +11,5 @@ categories:
 ---
 
 一个脑科学家讲述自己突发中风以后进入“天堂”的神奇经历，[她的主页](http://drjilltaylor.com/index.html)。
-<iframe src="http://embed.ted.com/talks/lang/zh-cn/jill_bolte_taylor_s_powerful_stroke_of_insight.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://embed.ted.com/talks/lang/zh-cn/jill_bolte_taylor_s_powerful_stroke_of_insight.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
