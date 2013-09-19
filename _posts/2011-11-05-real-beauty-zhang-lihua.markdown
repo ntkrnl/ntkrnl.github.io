@@ -18,12 +18,12 @@ categories:
 
 陈后主为张丽华真可谓《倾尽天下》
 
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1769292418&mode=js"></script>
 
-> [audio:http://cctvsmg-wordpress.stor.sinaapp.com/uploads/2011/11/QingJinTianXia.mp3|titles=河图-倾尽天下]
-作词：Finale
+> 作词：Finale
 作曲/编曲/演唱：河图
 
-刀戟声共丝竹沙哑
+> 刀戟声共丝竹沙哑
 谁带你看城外厮杀
 七重纱衣 血溅了白纱
 兵临城下六军不发
@@ -34,7 +34,7 @@ categories:
 还能不动声色饮茶
 踏碎这一场 盛世烟花
 
-血染江山的画
+> 血染江山的画
 怎敌你眉间 一点朱砂
 覆了天下也罢
 始终不过 一场繁华
@@ -43,7 +43,7 @@ categories:
 听刀剑喑哑
 高楼奄奄一息 倾塌
 
-是说一生命犯桃花
+> 是说一生命犯桃花
 谁为你算的那一卦
 最是无瑕 风流不假
 画楼西畔反弹琵琶
@@ -54,7 +54,7 @@ categories:
 到头来算的那一卦
 终是为你 覆了天下
 
-明月照亮天涯
+> 明月照亮天涯
 最后谁又 得到了蒹葭
 江山嘶鸣战马
 怀抱中那 寂静的喧哗
