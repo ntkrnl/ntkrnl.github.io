@@ -16,4 +16,7 @@ tags:
 - 苏联解体
 ---
 
-分为三集 <!-- more -->
+分为三集 
+<embed src="http://player.youku.com/player.php/sid/XMzY2MDM4MDc2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<embed src="http://player.youku.com/player.php/sid/XMzY2Njg5NTE2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<embed src="http://player.youku.com/player.php/sid/XNTYyNDAyNDUy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
