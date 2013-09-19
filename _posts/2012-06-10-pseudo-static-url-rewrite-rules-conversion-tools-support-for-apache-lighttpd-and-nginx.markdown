@@ -30,7 +30,6 @@ IIS rewrite (WordPress)
 
 
 > [ISAPI_Rewrite]
-# 3600 = 1 hour
 CacheClockRate 3600
 RepeatLimit 32
 
@@ -38,7 +37,6 @@ RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-
 
 
 Apache rewrite
@@ -50,7 +48,6 @@ RewriteRule ^index.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-
 
 
 Nginx rewrite
@@ -68,7 +65,6 @@ if (!-f $request_filename){
 rewrite (.*) /index.php;
 }
 }
-
 
 
 来源：http://www.onexin.net/rewrite-rules-for-pseudo-static-conversion-tools-support-apache-lighttpd-and-nginx/
