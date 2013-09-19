@@ -1,7 +1,7 @@
 <!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread"></div>
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"webfrogs"};
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"bitcn"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
@@ -12,3 +12,4 @@
 	})();
 	</script>
 <!-- Duoshuo Comment END -->
+

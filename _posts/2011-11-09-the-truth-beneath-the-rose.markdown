@@ -12,9 +12,6 @@ categories:
 
 在玫瑰花下是甚么意思呢？罗马人无论是吃饭、饮酒、闲谈和亲吻，每时每刻都离不了玫瑰。在玫瑰花环、玫瑰花冠下说和做的所有举动，在拉丁语中都被称为“sub rosa＂，意思是“秘密的，私下的＂，也即是under the rose。在罗马神话中，爱神丘比特为了掩饰母亲的恋情，拿玫瑰花贿赂缄默之神（Harpocrates），请他守住秘密。玫瑰在罗马因而象徵“约定”（Sub Rosa）；当时罗马教会的忏悔室也以玫瑰做为装饰图案，表示会替忏悔之人守住秘密。直到今天，under the rose还沿袭了此种含意，有时也指不合法的私下勾当。
 
-
-[audio:http://cctvsmg-wordpress.stor.sinaapp.com/uploads/2011/11/Within-Temptation-The-Truth-Beneath-The-Rose.mp3|titles=Within Temptation - The Truth Beneath The Rose]
-
 > The Truth Beneath The Rose
 > 玫瑰花下的真相
 > 
