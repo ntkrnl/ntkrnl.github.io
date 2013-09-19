@@ -15,4 +15,4 @@ tags:
 ---
 
 解决方式：
-删除wp-content/advanced-cache.php文件，WP Super Cache将会自动生成该文件，该错误可能是因为复制或移动了SuperCache文件夹导致的。
+删除`wp-content/advanced-cache.php`文件，WP Super Cache将会自动生成该文件，该错误可能是因为复制或移动了SuperCache文件夹导致的。
