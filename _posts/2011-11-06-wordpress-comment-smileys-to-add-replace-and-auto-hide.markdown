@@ -35,21 +35,21 @@ wordpress的默认表情在wp-includesimagessmilies下，下载自定义表情�
 共需修改2个地方，首先在模板加载的js后面添加这样一段：
 
 
-> $(document).ready(function(){
-/*smilies*/
-$("#smiley").hide();
-$("#comment").focus(function() {
-$("#smiley").animate({opacity: 'show'},{duration: 500} );
-}).blur(function() {
-$("#smiley").animate({opacity: 'hide'},{duration: 500});
-});
-});
+    $(document).ready(function(){
+    /*smilies*/
+    $("#smiley").hide();
+    $("#comment").focus(function() {
+    $("#smiley").animate({opacity: 'show'},{duration: 500} );
+    }).blur(function() {
+    $("#smiley").animate({opacity: 'hide'},{duration: 500});
+    });
+    });
 
 
 然后修改模板的header.php文件，在header加载js文件的部分之前添加下面这句，这里调用的google提供的jquery精简库，速度比较快。
 
-
-> <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 
 
 要注意的是，header加载js应该位于<?php wp_head(); ?>之后，最好确保是最后执行。
