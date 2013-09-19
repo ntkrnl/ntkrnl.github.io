@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://ntkrnl.github.com
+url: http://bitcn.org
 author: ntkrnl
 pygments: true
 safe: true
