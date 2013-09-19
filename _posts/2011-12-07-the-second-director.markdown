@@ -3,7 +3,7 @@ author: admin
 comments: true
 date: 2011-12-07 10:54:52+00:00
 layout: post
-slug: of-the-head-of-the-second
+slug: the-second-director
 title: 《二号首长》
 wordpress_id: 713
 categories:
