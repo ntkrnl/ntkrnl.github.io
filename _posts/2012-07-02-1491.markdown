@@ -1,0 +1,18 @@
+---
+author: admin
+comments: true
+date: 2012-07-02 16:20:30+00:00
+layout: post
+slug: '1491'
+title: Pinger 免费美国手机号免费短信
+wordpress_id: 1491
+categories:
+- 网络服务
+tags:
+- 免费
+- 免费短信
+---
+
+可能需要翻墙，我也不确定，本地能打开就是有点卡
+[http://pinger.com/textfree/](http://pinger.com/textfree/)
+注册完了以后能收短信，可以用来注册google app engine之类的需要短信验证的服务，也可以往国内手机免费发短信 

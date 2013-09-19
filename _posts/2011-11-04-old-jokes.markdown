@@ -1,0 +1,14 @@
+---
+author: admin
+comments: true
+date: 2011-11-04 16:24:50+00:00
+layout: post
+slug: old-jokes
+title: 老笑话
+wordpress_id: 394
+categories:
+- 未分类
+---
+
+外交官说"是",意思可能是"也许",说"也许"多半意味着"不",说"不"的就不是外交官
+女人恰恰相反,女人说"不",意思可能是"也许",说"也许"多半意味着"是",说"是"的就不是女人
