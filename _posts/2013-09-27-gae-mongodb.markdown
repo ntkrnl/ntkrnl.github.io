@@ -40,12 +40,12 @@ google给的datastore读写数量限制很坑爹，这直接导致了很多开�
 
 - 在工程主文件的头部，或者model.py头部加入如下几句代码，'mongodb://xxxxxx'是刚才申请得到的mongodb uri，port是连接端口
 
-    import os
+    	import os
     	import datastore_mongodb_stub
-    from google.appengine.api import apiproxy_stub_map
+    	from google.appengine.api import apiproxy_stub_map
     
-    mongodb = datastore_mongodb_stub.DatastoreMongoDBStub(os.environ['APPLICATION_ID'], False, 'datastore_v3', None, None, 'mongodb://xxxxxx', port)
-    apiproxy_stub_map.apiproxy.ReplaceStub('datastore_v3', mongodb)
+    	mongodb = datastore_mongodb_stub.DatastoreMongoDBStub(os.environ['APPLICATION_ID'], False, 'datastore_v3', None, None, 'mongodb://xxxxxx', port)
+    	apiproxy_stub_map.apiproxy.ReplaceStub('datastore_v3', mongodb)
 
 ![](http://ww3.sinaimg.cn/large/7dea1af1tw1e91fmvcf2oj20n20os0vp.jpg)
 
