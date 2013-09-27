@@ -1,3 +1,14 @@
+---
+author: admin
+comments: true
+date: 2013-09-27 22:45:34+00:00
+layout: post
+slug: gae-mongodb
+title: gae外接免费的mongodb数据库突破datastore读写次数限制
+wordpress_id: 170
+categories:
+- GAE
+---
 google给的datastore读写数量限制很坑爹，这直接导致了很多开发者逃离gae。现在有了一种新的解决方案——gae外接免费的mongodb数据库
 
 ####特性
