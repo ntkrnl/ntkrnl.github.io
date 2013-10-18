@@ -861,7 +861,7 @@ $(function() {
     //$('#container').highcharts('StockChart', {
     chart = new Highcharts.StockChart({
         chart: {
-            renderTo:'container',
+            renderTo:'kf',
             alignTicks: false,
             borderWidth: 1,
             borderRadius: 0
@@ -1040,6 +1040,6 @@ $(function() {
 </script>
 
 
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="kf" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 
