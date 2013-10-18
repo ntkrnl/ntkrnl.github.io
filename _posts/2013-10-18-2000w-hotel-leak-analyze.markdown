@@ -1222,5 +1222,7 @@ $(function() {
 </script>
 
 <div id="kf_date" style="min-width: 580px; height: 400px; margin: 0 auto"></div>
-因为里面有不少数据是胡乱填的，比如性别还有'0 1 @_@ 所以做了一些过滤，例如1946年以下的数据扔掉了（百分之零点几，占比极小），还有填1900年出生的，你敢信！
+因为里面有不少数据是胡乱填的，比如性别还有'0 1 @_@
+所以做了一些过滤，例如1946年以下的数据扔掉了（百分之零点几，占比极小）
+还有填1900年出生的，你敢信！
 <div id="kf_birth_year" style="min-width: 580px; height: 400px; margin: 0 auto"></div>
