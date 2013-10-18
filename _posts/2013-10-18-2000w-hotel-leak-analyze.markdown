@@ -10,10 +10,11 @@ categories:
 - 未分类
 ---
 根据泄露的2000w数据统计了下天朝淫民开房比较集中的日期、性别比例
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-<script src="http://code.highcharts.com/stock/highstock.js"></script>
-<script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
-<script src="http://code.highcharts.com/themes/grid.js"></script>
+<script src="http://lib.sinaapp.com/js/jquery/2.0.3/jquery-2.0.3.min.js"></script>
+<!--script src="http://code.highcharts.com/stock/highstock.js"></script-->
+<script src="http://lib.sinaapp.com/js/highstock/1.2.5/highstock.js"></script>
+<script src="http://lib.sinaapp.com/js/highstock/1.2.5/modules/exporting.js"></script>
+<script src="http://lib.sinaapp.com/js/highstock/1.2.5/themes/grid.js"></script>
 
 <script>
 
@@ -843,10 +844,160 @@ var kf_data = [{x:1285804800* 1000,y:     22865},
     {x:1356739200* 1000,y:    137519}];
 
 
+
+var male_birth_year =  [{x:1982,y:    528443},
+    {x:1986,y:    467088},
+    {x:1981,y:    466893},
+    {x:1987,y:    462142},
+    {x:1983,y:    459275},
+    {x:1984,y:    439637},
+    {x:1985,y:    433260},
+    {x:1979,y:    415423},
+    {x:1978,y:    401541},
+    {x:1980,y:    389587},
+    {x:1988,y:    382752},
+    {x:1977,y:    356882},
+    {x:1976,y:    356312},
+    {x:1975,y:    344124},
+    {x:1972,y:    331342},
+    {x:1973,y:    330396},
+    {x:1989,y:    327633},
+    {x:1974,y:    327017},
+    {x:1971,y:    319526},
+    {x:1970,y:    314750},
+    {x:1968,y:    277420},
+    {x:1969,y:    273283},
+    {x:1990,y:    243511},
+    {x:1963,y:    235771},
+    {x:1964,y:    203555},
+    {x:1965,y:    202371},
+    {x:1966,y:    201858},
+    {x:1967,y:    193945},
+    {x:1962,y:    175533},
+    {x:1991,y:    156455},
+    {x:1992,y:    112287},
+    {x:1961,y:     92326},
+    {x:1960,y:     91941},
+    {x:1957,y:     86271},
+    {x:1958,y:     84893},
+    {x:1959,y:     77153},
+    {x:1956,y:     76587},
+    {x:1993,y:     75585},
+    {x:1955,y:     69137},
+    {x:1954,y:     66867},
+    {x:1953,y:     53305},
+    {x:1952,y:     47868},
+    {x:1951,y:     43066},
+    {x:1994,y:     39662},
+    {x:1950,y:     35237},
+    {x:1949,y:     31866},
+    {x:1948,y:     25010},
+    {x:1998,y:     23235},
+    {x:1947,y:     23065},
+    {x:1997,y:     21684},
+    {x:1946,y:     20425},
+    {x:1995,y:     19804},
+    {x:1996,y:     18091},
+    {x:1945,y:     17032},
+    {x:1944,y:     15072},
+    {x:1941,y:     14538},
+    {x:1943,y:     12682},
+    {x:1942,y:     12319},
+    {x:1940,y:     10527},
+    {x:1938,y:      8837},
+    {x:1939,y:      8672},
+    {x:1937,y:      7655},
+    {x:1931,y:      6943},
+    {x:1936,y:      6763},
+    {x:1935,y:      5836},
+    {x:1999,y:      4975},
+    {x:1934,y:      4602},
+    {x:1933,y:      4452},
+    {x:1932,y:      3280},
+    {x:2000,y:      1838},
+    {x:2001,y:      1284},
+    {x:2002,y:      1080},];
+
+
+var female_birth_year = [{x:1987,y:    347753},
+    {x:1986,y:    321581},
+    {x:1988,y:    315014},
+    {x:1989,y:    295796},
+    {x:1985,y:    269987},
+    {x:1982,y:    265483},
+    {x:1984,y:    244268},
+    {x:1983,y:    239683},
+    {x:1990,y:    239182},
+    {x:1981,y:    226798},
+    {x:1979,y:    189079},
+    {x:1978,y:    183830},
+    {x:1980,y:    182973},
+    {x:1991,y:    163547},
+    {x:1977,y:    159756},
+    {x:1976,y:    151920},
+    {x:1975,y:    145443},
+    {x:1974,y:    133128},
+    {x:1973,y:    132311},
+    {x:1972,y:    129428},
+    {x:1971,y:    125564},
+    {x:1992,y:    124932},
+    {x:1970,y:    123777},
+    {x:1968,y:    112605},
+    {x:1969,y:    109592},
+    {x:1963,y:     93318},
+    {x:1993,y:     84830},
+    {x:1964,y:     78867},
+    {x:1965,y:     78576},
+    {x:1966,y:     78051},
+    {x:1967,y:     75422},
+    {x:1962,y:     69898},
+    {x:1994,y:     44509},
+    {x:1961,y:     40120},
+    {x:1957,y:     39574},
+    {x:1960,y:     39570},
+    {x:1958,y:     37025},
+    {x:1956,y:     36695},
+    {x:1954,y:     34812},
+    {x:1955,y:     33826},
+    {x:1959,y:     32985},
+    {x:1953,y:     29296},
+    {x:1952,y:     27356},
+    {x:1951,y:     26550},
+    {x:1950,y:     21847},
+    {x:1998,y:     20801},
+    {x:1949,y:     20543},
+    {x:1995,y:     20279},
+    {x:1997,y:     17506},
+    {x:1948,y:     16991},
+    {x:1996,y:     16043},
+    {x:1947,y:     15515},
+    {x:1946,y:     14281},
+    {x:1945,y:     12240},
+    {x:1941,y:     11276},
+    {x:1944,y:     11042},
+    {x:1943,y:      9414},
+    {x:1942,y:      9185},
+    {x:1940,y:      7572},
+    {x:1939,y:      6369},
+    {x:1938,y:      5954},
+    {x:1999,y:      5353},
+    {x:1937,y:      4965},
+    {x:1931,y:      4708},
+    {x:1936,y:      4423},
+    {x:1935,y:      3928},
+    {x:1934,y:      3028},
+    {x:1933,y:      2707},
+    {x:1932,y:      1989},
+    {x:2000,y:      1866},
+    {x:1930,y:      1542},
+    {x:2001,y:      1212},
+    {x:2002,y:       980},];
+
+
 var chart;
+var birth_chart;
 
 $(function() {
-
 
         Highcharts.setOptions({
 
@@ -855,17 +1006,121 @@ $(function() {
             shortMonths: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
             weekdays: ['星期天', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六']}})
 
+
+
+    birth_chart = new Highcharts.Chart({
+
+    //$('kf_birth_year').highcharts({
+        chart: {
+            renderTo: 'kf_birth_year',
+            type: 'column',
+            borderWidth: 0,
+            borderRadius: 0
+        },
+        title: {
+            text: '出生日期统计'
+        },
+
+        xAxis: {
+            categories: []
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: '人数'
+            }
+        },
+
+        credits: {
+            enabled: false
+        },
+
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}年出生</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:.1f} 人</b></td></tr>',
+            footerFormat: '</table>',
+            //shared: true,
+            useHTML: true
+        },
+
+        //plotOptions: {
+        //    column: {
+        //        pointPadding: 0.2,
+        //        borderWidth: 0
+        //    }
+        //},
+
+        series: [{
+            name: '男',
+            data: male_birth_year
+
+        }, {
+            name: '女',
+            data: female_birth_year
+
+        },
+            {
+                type: 'pie',
+                name: '性别统计',
+                data: [{
+                    name: '女',
+                    y: 6479097
+
+                    //color: '#FB6D6A'
+
+                }, {
+                    name: '男',
+                    y: 12773970
+                   // color: '#235F1F'
+
+                }, {
+                    name: '0',
+                    y: 1020
+                },
+                    {
+                        name: '1',
+                        y: 119
+                    },
+                    {
+                        name: 'N',
+                        y: 4362
+                    }],
+
+                tooltip: {
+                    formatter: function() {
+                        return this.x +'<br/>人数: '+ this.y ;
+                    },
+                    crosshairs: {
+                        dashStyle: 'dash'
+                    },
+                    shared: false
+                },
+                center: [70, 70],
+                size: 100,
+                //showInLegend: true,
+                dataLabels: {
+                    enabled: false
+                }
+            },
+        ]
+    });
+
+
+
+
     $(document).ready(function() {
 
     // create the chart
     //$('#container').highcharts('StockChart', {
     chart = new Highcharts.StockChart({
         chart: {
-            renderTo:'kf',
+            renderTo:'kf_date',
             alignTicks: false,
             borderWidth: 0,
             borderRadius: 0
         },
+
 
         xAxis:{
             //tickInterval:24 * 3600 * 1000,
@@ -888,7 +1143,7 @@ $(function() {
 
             type: 'datetime',
 
-            // 如果X轴刻度是日期或时间，该配置是格式化日期及时间显示格式
+
             dateTimeLabelFormats: {
                 second: '%Y-%m-%d<br/>%H:%M:%S',
                 minute: '%Y-%m-%d<br/>%H:%M',
@@ -902,10 +1157,7 @@ $(function() {
 
 
         rangeSelector: {
-            // 缩放选择按钮，是一个数组。
-            // 其中type可以是： 'millisecond', 'second', 'minute', 'day', 'week', 'month', 'ytd' (year to date), 'year' 和 'all'。
-            // 其中count是指多少个单位type。
-            // 其中text是配置显示在按钮上的文字
+
             buttons: [{
                 type: 'month',
                 count: 1,
@@ -928,15 +1180,15 @@ $(function() {
                 text: '3年'
             },
 
-            {
-                type: 'all',
-                text: '所有'
-            }
+            //{
+            //    type: 'all',
+            //    text: '所有'
+            //}
 
             ],
-            // 默认选择域：0（缩放按钮中的第一个）、1（缩放按钮中的第二个）……
+
             selected: 1,
-            // 是否允许input标签选框
+
             inputEnabled: false
         },
 
@@ -955,7 +1207,7 @@ $(function() {
         //},
 
         title: {
-            text: '2000W开房信息统计'
+            text: '入住时间统计'
         },
 
         series: [{
@@ -972,43 +1224,6 @@ $(function() {
             },
 
             data: kf_data
-        }, {
-            type: 'pie',
-            name: '性别统计',
-            data: [{
-                name: '女',
-                y: 6479097
-            }, {
-                name: '男',
-                y: 12773970
-            }, {
-                name: '0',
-                y: 1020
-            },
-                {
-                    name: '1',
-                    y: 119
-                },
-                {
-                    name: 'N',
-                    y: 4362
-                }],
-
-            tooltip: {
-                formatter: function() {
-                    return this.x +'<br/>人数: '+ this.y ;
-                },
-                crosshairs: {
-                    dashStyle: 'dash'
-                },
-                shared: false
-            },
-            center: [70, 50],
-            size: 80,
-            //showInLegend: true,
-            dataLabels: {
-                enabled: false
-            }
         },
             {
                 type: 'flags',
@@ -1031,15 +1246,13 @@ $(function() {
         ]
     });
 
-
-
     });
+
 });
 
 
 </script>
 
 
-<div id="kf" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-
+<div id="kf_date" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="kf_birth_year" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
