@@ -18,8 +18,6 @@ categories:
 
 <script>
 
-//中国法定节日 有新年（１月１日，放假一天）；春节（农历新年，除夕、正月初一、初二放假三天）；清明节（农历清明当日，放假一天）；国际劳动妇女节（３月８日，妇女放假半天）；植树节（３月１２日）；国际劳动节（５月１日，放假一天）；中国青年节（５月４日，１４周岁以上的青年放假半天）；端午节（农历端午当日，放假一天）；国际护士节（５月１２日）；儿童节（６月１日，不满１４周岁的少年儿童放假一天）；中国共产党诞生纪念日（７月１日）；中国人民解放军建军纪念日（８月１日，现役军人放假半天）；教师节（９月１０日）；中秋节（农历中秋当日，放假一天）；国庆节（１０月１日，放假三天）；记者节（１１月８日）。 [全国年节及纪念日放假办法]
-
 var kf_data = [{x:1285804800* 1000,y:     22865},
     {x:1285891200* 1000,y:     19733},
     {x:1285977600* 1000,y:     10212},
@@ -994,14 +992,7 @@ $(function() {
             enabled: false
         },
 
-        tooltip: {
-            headerFormat: '<span style="font-size:10px">{point.key}年出生</span><table>',
-            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                    '<td style="padding:0"><b>{point.y} 人</b></td></tr>',
-            footerFormat: '</table>',
-            shared: false
 
-        },
 
         //plotOptions: {
         //    column: {
@@ -1012,10 +1003,29 @@ $(function() {
 
         series: [{
             name: '男',
+
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}年出生</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                        '<td style="padding:0"><b>{point.y} 人</b></td></tr>',
+                footerFormat: '</table>',
+                shared: false
+
+            },
             data: male_birth_year
 
         }, {
             name: '女',
+
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}年出生</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                        '<td style="padding:0"><b>{point.y} 人</b></td></tr>',
+                footerFormat: '</table>',
+                shared: false
+
+            },
+
             data: female_birth_year
 
         },
@@ -1212,4 +1222,5 @@ $(function() {
 </script>
 
 <div id="kf_date" style="min-width: 580px; height: 400px; margin: 0 auto"></div>
+因为里面有不少数据是胡乱填的，比如性别还有'0 1 @_@ 所以做了一些过滤，例如1946年以下的数据扔掉了（百分之零点几，占比极小），还有填1900年出生的，你敢信！
 <div id="kf_birth_year" style="min-width: 580px; height: 400px; margin: 0 auto"></div>
