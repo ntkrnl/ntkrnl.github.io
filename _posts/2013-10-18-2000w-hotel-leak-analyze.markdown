@@ -928,10 +928,10 @@ $(function() {
                 text: '3年'
             },
 
-            //{
-            //    type: 'all',
-            //    text: '所有'
-            //}
+            {
+                type: 'all',
+                text: '所有'
+            }
 
             ],
             // 默认选择域：0（缩放按钮中的第一个）、1（缩放按钮中的第二个）……
@@ -1003,8 +1003,8 @@ $(function() {
                 },
                 shared: false
             },
-            center: [80, 50],
-            size: 100,
+            center: [70, 50],
+            size: 80,
             //showInLegend: true,
             dataLabels: {
                 enabled: false
