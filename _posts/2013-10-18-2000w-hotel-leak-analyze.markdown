@@ -958,6 +958,8 @@ var birth_chart;
 
 $(function() {
 
+    $("#container").css('width', '1500px');
+
         Highcharts.setOptions({
 
         lang:{
@@ -968,8 +970,6 @@ $(function() {
 
 
     birth_chart = new Highcharts.Chart({
-
-    //$('kf_birth_year').highcharts({
         chart: {
             renderTo: 'kf_birth_year',
             type: 'column',
@@ -1211,6 +1211,5 @@ $(function() {
 
 </script>
 
-
-<div id="kf_date" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-<div id="kf_birth_year" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="kf_date" style="min-width: 580px; height: 400px; margin: 0 auto"></div>
+<div id="kf_birth_year" style="min-width: 580px; height: 400px; margin: 0 auto"></div>
