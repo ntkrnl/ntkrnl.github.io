@@ -863,7 +863,7 @@ $(function() {
         chart: {
             renderTo:'kf',
             alignTicks: false,
-            borderWidth: 1,
+            borderWidth: 0,
             borderRadius: 0
         },
 
