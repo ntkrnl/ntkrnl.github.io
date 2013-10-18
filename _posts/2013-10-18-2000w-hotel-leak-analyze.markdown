@@ -897,26 +897,7 @@ var male_birth_year =  [{x:1982,y:    528443},
     {x:1997,y:     21684},
     {x:1946,y:     20425},
     {x:1995,y:     19804},
-    {x:1996,y:     18091},
-    {x:1945,y:     17032},
-    {x:1944,y:     15072},
-    {x:1941,y:     14538},
-    {x:1943,y:     12682},
-    {x:1942,y:     12319},
-    {x:1940,y:     10527},
-    {x:1938,y:      8837},
-    {x:1939,y:      8672},
-    {x:1937,y:      7655},
-    {x:1931,y:      6943},
-    {x:1936,y:      6763},
-    {x:1935,y:      5836},
-    {x:1999,y:      4975},
-    {x:1934,y:      4602},
-    {x:1933,y:      4452},
-    {x:1932,y:      3280},
-    {x:2000,y:      1838},
-    {x:2001,y:      1284},
-    {x:2002,y:      1080},];
+    {x:1996,y:     18091},];
 
 
 var female_birth_year = [{x:1987,y:    347753},
@@ -969,29 +950,7 @@ var female_birth_year = [{x:1987,y:    347753},
     {x:1995,y:     20279},
     {x:1997,y:     17506},
     {x:1948,y:     16991},
-    {x:1996,y:     16043},
-    {x:1947,y:     15515},
-    {x:1946,y:     14281},
-    {x:1945,y:     12240},
-    {x:1941,y:     11276},
-    {x:1944,y:     11042},
-    {x:1943,y:      9414},
-    {x:1942,y:      9185},
-    {x:1940,y:      7572},
-    {x:1939,y:      6369},
-    {x:1938,y:      5954},
-    {x:1999,y:      5353},
-    {x:1937,y:      4965},
-    {x:1931,y:      4708},
-    {x:1936,y:      4423},
-    {x:1935,y:      3928},
-    {x:1934,y:      3028},
-    {x:1933,y:      2707},
-    {x:1932,y:      1989},
-    {x:2000,y:      1866},
-    {x:1930,y:      1542},
-    {x:2001,y:      1212},
-    {x:2002,y:       980},];
+    {x:1996,y:     16043}];
 
 
 var chart;
@@ -1038,10 +997,10 @@ $(function() {
         tooltip: {
             headerFormat: '<span style="font-size:10px">{point.key}年出生</span><table>',
             pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-                    '<td style="padding:0"><b>{point.y:.1f} 人</b></td></tr>',
+                    '<td style="padding:0"><b>{point.y} 人</b></td></tr>',
             footerFormat: '</table>',
-            //shared: true,
-            useHTML: true
+            shared: false
+
         },
 
         //plotOptions: {
@@ -1111,8 +1070,7 @@ $(function() {
 
     $(document).ready(function() {
 
-    // create the chart
-    //$('#container').highcharts('StockChart', {
+
     chart = new Highcharts.StockChart({
         chart: {
             renderTo:'kf_date',
