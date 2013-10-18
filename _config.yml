@@ -1,7 +1,7 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://bitcn.org
-author: ntkrnl
+url: http://www.bitcn.org
+author: Ntkrnl
 pygments: true
 safe: true
 paginate: 16
