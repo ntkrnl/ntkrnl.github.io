@@ -7,7 +7,9 @@ slug: windows-install-gevent
 title: windows下安装gevent
 wordpress_id: 172
 categories:
-- python gevent
+- python
+tags:
+- gevent
 ---
 Python 2.7 会搜索 Visual Studio 2008.如果你电脑上没有这个版本的话,比如只有:
 
