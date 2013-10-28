@@ -24,7 +24,7 @@ heroku只支持pypy-1.9，由于greenlet在早期的pypy版本上比较慢，pyp
 使用方法：
 
 - 创建新项目的时候：`heroku create --stack cedar --buildpack git://github.com/ntkrnl/heroku-buildpack-pypy2.1.git`
-或者
+
 
 - 对于已经存在的项目：`heroku config:set BUILDPACK_URL=git://github.com/ntkrnl/heroku-buildpack-pypy2.1.git`
 
