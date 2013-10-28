@@ -4,7 +4,7 @@ comments: true
 date: 2013-10-29 01:00:00+00:00
 layout: post
 slug: heroku-build-pack-pypy-2.1
-title: heroku pypy-2.1 runtime
+title: heroku pypy-2.1 支持
 wordpress_id: 173
 categories:
 - python 
