@@ -47,7 +47,7 @@ Google给的Datastore读写数量限制很坑爹，这直接导致了很多开�
     	mongodb = datastore_mongodb_stub.DatastoreMongoDBStub(os.environ['APPLICATION_ID'], False, 'datastore_v3', None, None, 'mongodb://xxxxxx', port)
     	apiproxy_stub_map.apiproxy.ReplaceStub('datastore_v3', mongodb)
 
-![](http://ww3.sinaimg.cn/large/7dea1af1tw1e91fmvcf2oj20n20os0vp.jpg)
+	![](http://ww3.sinaimg.cn/large/7dea1af1tw1e91fmvcf2oj20n20os0vp.jpg)
 
 
 - update到GAE测试是否运行成功

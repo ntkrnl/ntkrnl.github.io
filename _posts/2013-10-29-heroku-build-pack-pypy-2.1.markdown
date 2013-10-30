@@ -14,6 +14,8 @@ tags:
 ---
 Heroku只支持PyPy-1.9，由于greenlet在早期的pypy版本上比较慢，PyPy-2.1还能支持个gevent，所以顺手搞了一个Heroku的PyPy-2.1 build pack
 
+----------
+
 这个fork版本支持的Python Runtime：
 
 - Python-2.7.4
@@ -32,11 +34,11 @@ Heroku只支持PyPy-1.9，由于greenlet在早期的pypy版本上比较慢，PyP
 
 使用Tornado hello world， `ab -n 10000 -c 300`做了下性能测试
 
-- Python-2.7.4
+######Python-2.7.4
  ![](http://ww3.sinaimg.cn/large/7dea1af1tw1ea1f2snxvuj20ge0ghjt8.jpg)
-- PyPy-1.9
+######PyPy-1.9
  ![](http://ww2.sinaimg.cn/large/7dea1af1tw1ea1f2r6q37j20g80g5gnc.jpg)
-- PyPy-2.1
+######PyPy-2.1
 ![](http://ww4.sinaimg.cn/large/7dea1af1tw1ea1f2nn5hyj20gc0gcq48.jpg)
 
 可以看出和PyPy-2.1相比，Python-2.7.4和PyPy-1.9都是渣渣
