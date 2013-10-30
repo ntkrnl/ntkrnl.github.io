@@ -9,17 +9,13 @@
 * |\.|._)._)
 * --------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Galdeano);
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
-@import url(http://fonts.googleapis.com/css?family=Cuprum);
-@import url(http://fonts.googleapis.com/css?family=Merriweather);
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600);
 
 body{font-size:14px;word-spacing:1px;
 	margin-left:auto;
 margin-right:auto;
-	font-family:"Open Sans", "Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#ffffff;}
+	font-family:"Open Sans", "Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#dd0000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
@@ -59,7 +55,7 @@ h1{font-family:"Open Sans", "Hiragino Sans GB","Microsoft YaHei",sans-serif;font
 h2{font-family:"Open Sans", "Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
 h3{font-family:"Open Sans", "Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
 h4{font-family:"Open Sans", "Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
-pre,code{font-family:"Consolas", Menlo,"Andale Mono","Courier New",Monaco,monospace;font-size:13px;}
+pre,code{font-family:"Consolas", Menlo, "Open Sans", "Andale Mono","Courier New",Monaco,monospace;font-size:13px;}
 code{background-color:#D0D0D0;}
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
