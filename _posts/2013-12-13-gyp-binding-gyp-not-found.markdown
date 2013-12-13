@@ -4,7 +4,7 @@ comments: true
 date: 2013-12-13 22:38:00+00:00
 layout: post
 slug: gyp-binding-gyp-not-found
-title: gyp: binding.gyp not found错误解决
+title: binding.gyp not found错误解决
 wordpress_id: 174
 categories:
 - node.js 
