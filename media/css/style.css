@@ -42,7 +42,7 @@ padding-bottom:1.5em;
     box-shadow: 0 0 10px 0 #cfcfcf;
     border-top: 6px solid #EE0000;
 }
-.content{font-size:15px;line-height:2em;}
+.content{font-size:15px;line-height:1.75em;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom: 1em;}
