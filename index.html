@@ -11,7 +11,7 @@ layout: page
     <li class="listing-seperator">{{ y }}</li>
   {% endif %}
   <li class="listing-item">
-  <span>{{ post.date | date_to_string }}</span> &raquo; 
+  <time><span>{{ post.date | date_to_string }}</span> &raquo; </time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
