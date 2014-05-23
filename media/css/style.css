@@ -41,6 +41,7 @@ padding-bottom:1.5em;
     -webkit-box-shadow: 0 0 10px 0 #cfcfcf;
     box-shadow: 0 0 10px 0 #cfcfcf;
     border-top: 6px solid #EE0000;
+	padding-top: 0.5em;
 }
 .content{font-size:15px;line-height:1.75em;}
 .content h1{padding:.5em 0;}
