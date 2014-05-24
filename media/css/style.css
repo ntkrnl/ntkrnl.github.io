@@ -27,13 +27,15 @@ ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
 blockquote, pre code {
   background-color: #f8f8f8;
-  padding: 0 1em;
+  padding: 1em;
   border: 1px dashed #eee !important;
   border-color: #e0e0e0 !important;
   font-size: 13px;
   line-height: 1.6;
-  display: block;
-  overflow: auto; }
+  display: blocka
+  overflow: auto;
+  color:rgba(0, 0, 0, 0.54);
+  margin: 5px 0 5px 0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;
 padding-bottom:1.5em;
     background-color: #fff;
