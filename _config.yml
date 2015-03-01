@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title/
-url: http://www.shabi.us
+url: http://shabi.us
 author: Ntkrnl
 pygments: true
 safe: true
